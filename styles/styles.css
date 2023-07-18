@@ -136,4 +136,27 @@ gap: .2rem;
   }
 
 }
+/*....for tab..*/
+@media screen and (min-width:560px) and (max-width:920px){
+  nav  {
+    flex-direction: column;
+    
+    
+
+  }
+  .nabopt {
+    flex-direction: column;
+    
+   
+  }
+  ul{
+    
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  ul>li{
+    margin: 1rem;
+  }
+ 
   
+}  
