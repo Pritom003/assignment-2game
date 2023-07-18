@@ -11,7 +11,7 @@ nav{
 
   justify-content: space-between;
   background: #FFF;
-margin: .4rem;
+
 padding-top: 2rem;
 
 
@@ -78,6 +78,92 @@ justify-content: space-between;
 align-items: center;
 gap: .2rem;
 }
+/*........section1a.......a*/
+header{
+  display: flex;
+  justify-content: center;
+  
+}
+.bannertitle{
+  max-width: 50%;
+  margin-right: 5rem;
+ 
+ 
+
+
+
+}
+#headh{
+  color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 10rem;
+margin-bottom: 1rem;
+}
+.bannertitle h1{
+  text-align: center;
+font-family: Work Sans;
+font-size: 3.9375rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.buttonn-pink{
+  display: inline-flex;
+padding: 1rem 2rem;
+align-items: flex-start;
+gap: 0.625rem;
+border-radius: 3rem;
+border-radius: 3rem;
+color: #FFF;
+border: none;
+margin-top: 2rem;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.buttonn-blue{
+  display: inline-flex;
+padding: 1rem 2rem;
+align-items: flex-start;
+gap: 0.625rem;
+border-radius: 3rem;
+background: #4EC5F7;
+color: #FFF;
+border: none;
+margin-top: 2rem;
+
+
+}
+
+
+#headerimg{
+  
+  width: 25rem;
+  height: 18.875rem;
+  flex-shrink: 0;
+  margin-top: 10rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -134,8 +220,28 @@ gap: .2rem;
     height: 1.3rem;
     width: 1.8rem;
   }
-
+  header{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+.bannertitle{
+  justify-self: center;
+  width: 30rem;
+  height: auto;
+  padding-left: 6rem;
 }
+#headerimg{
+  width 20rem;
+}
+.btn{
+  display: flex;
+  gap: .3rem;
+}
+
+
+
+
 /*....for tab..*/
 @media screen and (min-width:560px) and (max-width:920px){
   nav  {
