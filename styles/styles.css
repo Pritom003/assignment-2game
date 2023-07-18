@@ -12,8 +12,8 @@ nav{
   justify-content: space-between;
   background: #FFF;
 margin: .4rem;
-border: black solid;
-border-radius: .3rem;
+padding-top: 2rem;
+
 
 }
 .psicon{
@@ -36,30 +36,104 @@ span{
 .nabopt{
   
   text-align: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
   
 }
-ul>LI {
-  list-style-type: none;
-  display: inline;
+ul{
+  display: flex;
+}
+ .nabopt  a{
   text-decoration: none;
   color: #3C354F;
-text-align: center;
-font-size: 1.125rem;
+justify-self: center;
+  text-decoration: none;
+  color: #3C354F;
+
+font-size: 1rem;
 list-style-type: none;
 font-weight: 500;
-margin-left:.7rem ;
+margin-right:.7rem ;
+margin-left: auto;
+margin-top:1rem ;
+padding-top: 5rem;
+align-items: center;
 }
-ul a{
-  text-decoration: none;
-  color: #3C354F;
-
+ul>li{
+  list-style-type: none;
+  text-align: center;
   
 }
-li>button{
 
-  width: 10.375rem;
+
+.nabopt button{
+
+  width: 13.375rem;
 height: 3.5rem;
 flex-shrink: 0;
-display: inline;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: .2rem;
+}
+
+
+
+@media screen and (max-width: 560px){
+  nav  {
+    flex-direction: column;
+    
+    
+
+  }
+  .nabopt {
+    flex-direction: column;
+    
+   
+  }
+  ul{
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  ul>li{
+    margin: 1rem;
+  }
+  .psicon{
+    width: 3.37756rem;
+  height: 1.8rem;
+   }
+   .Gamel{
+    text-align: center;
+  
+  font-size: 1.8125rem;
+  
+  font-weight: 400;
+  
+  }
+  
+  .nabopt  a{
+    font-size:1 .3rem;
+    flex-direction: column;
+  
+
+  }
+  .nabopt button{
+
+    width: 16.375rem;
+  height: 4.5rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  }
+  .nabopt button>img{
+    height: 1.3rem;
+    width: 1.8rem;
+  }
 
 }
+  
