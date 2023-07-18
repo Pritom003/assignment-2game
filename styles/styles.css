@@ -12,7 +12,8 @@ nav{
   justify-content: space-between;
   background: #FFF;
 
-padding-top: 2rem;
+max-width: 100%;
+padding: 2rem;
 
 
 }
@@ -79,21 +80,24 @@ align-items: center;
 gap: .2rem;
 }
 /*........section1a.......a*/
-header{
+.header{
   display: flex;
   justify-content: center;
+  background-color: rgb(250, 249, 249);
+  margin-bottom: 5rem;
   
 }
 .bannertitle{
   max-width: 50%;
   margin-right: 5rem;
+  padding-top: 10rem;
  
  
 
 
 
 }
-#headh{
+.headh{
   color: #0B0223;
 text-align: center;
 font-family: Work Sans;
@@ -104,8 +108,9 @@ line-height: normal;
 text-transform: uppercase;
 margin-top: 10rem;
 margin-bottom: 1rem;
+padding-top: 2rem;
 }
-.bannertitle h1{
+.goat{
   text-align: center;
 font-family: Work Sans;
 font-size: 3.9375rem;
@@ -153,9 +158,11 @@ margin-top: 2rem;
   flex-shrink: 0;
   margin-top: 10rem;
   
+  
 }
 
 
+ 
 
 
 
@@ -220,7 +227,7 @@ margin-top: 2rem;
     height: 1.3rem;
     width: 1.8rem;
   }
-  header{
+  .header{
     flex-direction: column;
     flex-direction: column-reverse;
     align-items: center;
@@ -232,13 +239,30 @@ margin-top: 2rem;
   padding-left: 6rem;
 }
 #headerimg{
-  width 20rem;
+  width:20rem;
 }
 .btn{
   display: flex;
   gap: .3rem;
-}
+  font-size: .2rem;
 
+}
+.buttonn-pink{
+  height: 2rem;
+  width: 5rem;
+  text-align: center;
+  font-size: .7rem;
+  padding: .5rem 1rem 0 1rem;
+}
+.buttonn-blue{
+  height: 2rem;
+  
+  width: 7rem;
+  text-align: center;
+  font-size: .7rem;
+  padding: .5rem 1rem 0 1rem;
+}
+}
 
 
 
