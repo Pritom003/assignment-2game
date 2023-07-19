@@ -267,8 +267,60 @@ text-align: center;
 border: 5px solid #FFF;
 background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
 }
+.allicon{
+  max-width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-area: .5rem;
+  border: 1px solid black;
+  padding: 5rem;
+  gap: 1rem .3rem;
 
 
+
+  
+
+}
+.allicon button {
+  display: flex;
+  width: 10.5rem;
+height: 3rem;
+flex-shrink: 0;
+border-radius: 3.125rem;
+background: #FFF;
+text-align: center;
+
+justify-self: center;
+
+justify-items: center ;
+padding: .3rem .5rem ;
+text-align: center;
+justify-content: center;
+border: 2px ;
+   
+   text-align: center;
+   align-items: center;
+
+}
+.allicon img{
+
+width: 3rem;
+height: 1.75rem;
+flex-shrink: 0;
+}
+
+#pinkbor{
+   border: 2px solid rgb(221, 51, 153);
+   color:  rgb(247, 31, 186);
+   text-align: center;
+   align-items: center;
+
+
+  
+  
+
+}
 
  
 
@@ -421,8 +473,57 @@ figcaption{
   text-align: center;
   margin-left: 3rem;
 }
+.allicon{
+  max-width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-area: .5rem;
+  border: 1px solid black;
+  padding: 3rem;
+  gap: 1rem .3rem;
+}
+.allicon button {
+  display: flex;
+  width: 6.5rem;
+height: 1.5rem;
+flex-shrink: 0;
+border-radius: 3.125rem;
+background: #FFF;
+text-align: center;
+
+justify-self: center;
+
+justify-items: center ;
+padding: .3rem .5rem ;
+text-align: center;
+justify-content: center;
+border: 2px ;
+   
+   text-align: center;
+   align-items: center;
+   font-size: .4rem;
+
+}
+.allicon img{
+
+width: 1.5rem;
+height: .75rem;
+flex-shrink: 0;
 }
 
+#pinkbor{
+   border: 2px solid rgb(221, 51, 153);
+   color:  rgb(247, 31, 186);
+   text-align: center;
+   align-items: center;
+
+
+  
+  
+
+}
+}
 
 
 
