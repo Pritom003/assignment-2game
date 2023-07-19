@@ -163,8 +163,9 @@ margin-top: 2rem;
 /*...new main ...*/
 .sectionone{
   text-align: center;
-  padding: 1.5rem;
+  
   align-items: center;
+
 }
 #online
 {
@@ -189,14 +190,17 @@ margin-top: 2rem;
   line-height: normal;
 
 }
-.ashfont{
+
+
+ .sectionone .ashfont{
   color: #534C64;
 text-align: center;
 font-family: Work Sans;
 font-size: .8rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.875rem; /* 166.667% */
+
+
+
+align-items: center;
 
 }
 /*.....section2...*/
@@ -232,6 +236,39 @@ text-align: center;
 
 
 }
+.secthree{
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  align-items: center;
+  
+  
+
+}
+.sec3head{
+  padding-left: 2rem;
+  padding-right: 5rem;
+  padding-top: 3rem;
+  max-width: 50;
+
+ 
+}
+.secthree .horseimg{
+  width: 20rem;
+  flex-shrink: 0;
+  
+  
+}
+#child{
+  width: 10rem;
+  margin-top:-7rem ;
+  border-radius: 0.5rem;
+border: 5px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+
 
  
 
@@ -334,6 +371,10 @@ text-align: center;
   padding: .5rem 1rem 0 1rem;
 
 }
+.sectionone{
+  font-size: 10px;
+
+}
 .sectwo{
   flex-direction: column;
   justify-content: center;
@@ -342,16 +383,46 @@ text-align: center;
   text-align: center;
 }
 .sectwo img {
-  width: 20rem;
+  width: 15rem;
   height: auto;
   
 }
+.seconetwo{
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 figcaption{
-  width: 20rem
+  width: 14rem
 }
+.secthree{
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.secthree .horseimg{
+  width: 12rem;
+  flex-shrink: 0;
+  margin-top: 5rem;
+  
 
 
+
 }
+.sec3head{
+  width: 12rem;
+  text-align:center ;
+ 
+}
+.secthree p {
+  max-width: 12rem;
+  text-align: center;
+  margin-left: 3rem;
+}
+}
+
 
 
 
@@ -376,6 +447,17 @@ figcaption{
   ul>li{
     margin: 1rem;
   }
+  .sectwo{
+    flex-direction: row;
+  }
+  .sectwo img {
+    max-width: 50rem;
+    height: 40rem;
+    height: auto;
+    
+  }
+  figcaption{
+    width: 25rem
  
   
 }  
