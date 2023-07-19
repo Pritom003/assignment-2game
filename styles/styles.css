@@ -247,12 +247,23 @@ text-align: center;
 
 }
 .sec3head{
-  padding-left: 2rem;
+  padding-left: 3rem;
   padding-right: 5rem;
   padding-top: 3rem;
   max-width: 50;
 
  
+}
+.sec3font{
+  color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: .6rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1rem; 
+padding-top: 1rem;
+
 }
 .secthree .horseimg{
   width: 20rem;
@@ -262,7 +273,7 @@ text-align: center;
 }
 #child{
   width: 10rem;
-  margin-top:-7rem ;
+  margin-top:-5rem ;
   border-radius: 0.5rem;
 border: 5px solid #FFF;
 background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
@@ -335,6 +346,7 @@ padding: 0.625rem;
 align-items: flex-start;
 gap: 3.75rem;
 margin-left: 5rem;
+
   
 }
 .linkmedia>a{
@@ -493,7 +505,7 @@ line-height: normal;
   flex-direction: column;
 }
 figcaption{
-  width: 14rem
+  width: 20rem;
 }
 .secthree{
   flex-direction: column;
@@ -501,13 +513,19 @@ figcaption{
   text-align: center;
 }
 .secthree .horseimg{
-  width: 12rem;
+  width: 15rem;
   flex-shrink: 0;
   margin-top: 5rem;
   
 
 
 
+}
+.childimg{
+  width: .2px;
+}
+#child{
+  width: 7rem;
 }
 .sec3head{
   width: 12rem;
@@ -571,7 +589,7 @@ flex-shrink: 0;
 }
 .linkmedia{
   display: grid;
-  grid-template-columns: repeat( 3 , 5rem)
+  grid-template-columns: repeat( 3 , 3rem)
   
   
 }
