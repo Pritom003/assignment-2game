@@ -292,7 +292,7 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-area: .5rem;
-  border: 1px solid black;
+  
   padding: 5rem;
   gap: 1rem .3rem;
 
@@ -652,12 +652,12 @@ margin-top: .3rem;
 
 
 }
-
+}
 
 
 
 /*....for tab..*/
-@media screen and (min-width:560px) and (max-width:920px){
+@media screen and (min-width:560px) and (max-width:912px){
   nav  {
     flex-direction: column;
     
@@ -690,4 +690,30 @@ margin-top: .3rem;
     width: 25rem
  
   
-}  
+}  .allicon{
+  max-width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-area: .5rem;
+  
+  padding: 5rem;
+  gap: 1rem .3rem;
+
+  
+
+}
+.sectwo img {
+  padding: 2rem;
+
+  width: 10.375rem;
+height: 14rem;
+border-radius: 1rem;
+
+
+text-align: center;
+
+
+
+}
+}
