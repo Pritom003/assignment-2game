@@ -456,6 +456,10 @@ line-height: normal;
   height: auto;
   padding-left: 6rem;
 }
+.goat{
+width: 15rem;
+padding-left: .3rem; 
+}
 #headerimg{
   width:20rem;
 }
