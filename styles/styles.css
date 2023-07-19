@@ -236,6 +236,14 @@ text-align: center;
 
 
 }
+
+
+.card:hover{
+  cursor: pointer;
+  
+
+}
+
 .secthree{
   
   display: flex;
@@ -312,7 +320,13 @@ border: 2px ;
    
    text-align: center;
    align-items: center;
+   cursor: pointer;
 
+}
+.allicon>button:hover{
+  background-color: #e9d9e1;
+
+  
 }
 .allicon img{
 
@@ -582,6 +596,7 @@ width: 1.5rem;
 height: .75rem;
 flex-shrink: 0;
 }
+
 
 #pinkbor{
    border: 2px solid rgb(221, 51, 153);
