@@ -273,7 +273,7 @@ padding-top: 1rem;
 }
 #child{
   width: 10rem;
-  margin-top:-5rem ;
+  margin-top:-7rem ;
   border-radius: 0.5rem;
 border: 5px solid #FFF;
 background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
@@ -365,6 +365,10 @@ padding: 0.625rem;
 align-items: flex-start;
 gap: 3.75rem;
 margin-left: 10rem;
+
+}
+.imgmedia>img{
+height: 2rem;
 }
 .litlefont{
   color: rgba(255, 255, 255, 0.60);
@@ -457,8 +461,7 @@ line-height: normal;
   padding-left: 6rem;
 }
 .goat{
-width: 15rem;
-padding-left: .3rem; 
+width: 15rem; 
 }
 #headerimg{
   width:20rem;
@@ -617,10 +620,19 @@ margin-top: .3rem;
   display: grid;
   grid-template-columns: repeat( 2 , 5rem);
   padding-top: 5rem;
-    
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-right: 8rem;
+  justify-content: center;
+  
 
 }
-
+.litlefont{
+  font-size: .4rem;
+    padding-left: .2rem;
+}
+.imgmedia>img{
+  height: 1rem;
 
 
 
