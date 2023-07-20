@@ -1,719 +1,1437 @@
 *{
  
-font-family: 'Work Sans', sans-serif;
-margin:0px;
-
-
-
-}
-nav{
-  display: flex;
-
-  justify-content: space-between;
-  background: #FFF;
-
-max-width: 100%;
-padding: 2rem;
-
-
-}
-.psicon{
-  width: 5.37756rem;
-height: 2.5rem;
-flex-shrink: 0;
-
-}
-.Gamel{
-  text-align: center;
-
-font-size: 2.8125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-span{
-  color: hotpink;
-}
-.nabopt{
-  
-  text-align: center;
-  display: flex;
-  text-align: center;
-  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  margin:0px;
   
   
-}
-ul{
-  display: flex;
-}
- .nabopt  a{
-  text-decoration: none;
-  color: #3C354F;
-justify-self: center;
-  text-decoration: none;
-  color: #3C354F;
-
-font-size: 1rem;
-list-style-type: none;
-font-weight: 500;
-margin-right:.7rem ;
-margin-left: auto;
-margin-top:1rem ;
-padding-top: 5rem;
-align-items: center;
-}
-ul>li{
-  list-style-type: none;
-  text-align: center;
   
-}
-
-
-.nabopt button{
-
-  width: 13.375rem;
-height: 3.5rem;
-flex-shrink: 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-gap: .2rem;
-}
-/*........section1a.......a*/
-.header{
-  display: flex;
-  justify-content: center;
-  background-color: rgb(250, 249, 249);
-  margin-bottom: 5rem;
+  }
+  nav{
+    display: flex;
   
-}
-.bannertitle{
-  max-width: 50%;
-  margin-right: 5rem;
-  padding-top: 10rem;
- 
- 
-
-
-
-}
-.headh{
-  color: #0B0223;
-text-align: center;
-font-family: Work Sans;
-font-size: 2rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-margin-top: 10rem;
-margin-bottom: 1rem;
-padding-top: 2rem;
-}
-.goat{
-  text-align: center;
-font-family: Work Sans;
-font-size: 3.9375rem;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
-}
-.buttonn-pink{
-  display: inline-flex;
-padding: 1rem 2rem;
-align-items: flex-start;
-gap: 0.625rem;
-border-radius: 3rem;
-border-radius: 3rem;
-color: #FFF;
-border: none;
-margin-top: 2rem;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-}
-.buttonn-blue{
-  display: inline-flex;
-padding: 1rem 2rem;
-align-items: flex-start;
-gap: 0.625rem;
-border-radius: 3rem;
-background: #4EC5F7;
-color: #FFF;
-border: none;
-margin-top: 2rem;
-
-
-}
-
-
-#headerimg{
+    justify-content: space-between;
+    background: #FFF;
   
-  width: 25rem;
-  height: 18.875rem;
+  max-width: 100%;
+  padding: 2rem;
+  
+  
+  }
+  .psicon{
+    width: 5.37756rem;
+  height: 2.5rem;
   flex-shrink: 0;
-  margin-top: 10rem;
   
+  }
+  .Gamel{
+    text-align: center;
   
-}
-/*...new main ...*/
-.sectionone{
-  text-align: center;
-  
-  align-items: center;
-
-}
-#online
-{
-  color: #0B0223;
-  text-align: right;
-  font-family: Work Sans;
-  font-size: 2rem;
+  font-size: 2.8125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
- 
-}
-#funny{
+  }
+  span{
+    color: hotpink;
+  }
+  .nabopt{
+    
+    text-align: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    
+  }
+  ul{
+    display: flex;
+  }
+   .nabopt  a{
+    text-decoration: none;
+    color: #3C354F;
+  justify-self: center;
+    text-decoration: none;
+    color: #3C354F;
+  
+  font-size: 1rem;
+  list-style-type: none;
+  font-weight: 500;
+  margin-right:.7rem ;
+  margin-left: auto;
+  margin-top:1rem ;
+  padding-top: 5rem;
+  align-items: center;
+  }
+  ul>li{
+    list-style-type: none;
+    text-align: center;
+    
+  }
+  
+  
+  .nabopt button{
+  
+    width: 13.375rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .2rem;
+  }
+  /*........section1a.......a*/
+  .header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 249, 249);
+    margin-bottom: 5rem;
+    
+  }
+  .bannertitle{
+    max-width: 50%;
+    margin-right: 5rem;
+    padding-top: 10rem;
+   
+   
+  
+  
+  
+  }
+  .headh{
+    color: #0B0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  }
+  .goat{
+    text-align: center;
+  font-family: Work Sans;
+  font-size: 3.9375rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
+  }
+  .buttonn-pink{
+    display: inline-flex;
+  padding: 1rem 2rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 3rem;
+  border-radius: 3rem;
+  color: #FFF;
+  border: none;
+  margin-top: 2rem;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  }
+  .buttonn-blue{
+    display: inline-flex;
+  padding: 1rem 2rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 3rem;
+  background: #4EC5F7;
+  color: #FFF;
+  border: none;
+  margin-top: 2rem;
+  
+  
+  }
+  
+  
+  #headerimg{
+    
+    width: 25rem;
+    height: 18.875rem;
+    flex-shrink: 0;
+    margin-top: 10rem;
+    
+    
+  }
+  /*...new main ...*/
+  .sectionone{
+    text-align: center;
+    
+    align-items: center;
+  
+  }
+  #online
+  {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+  }
+  #funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  
+  }
+  
+  
+   .sectionone .ashfont{
+    color: #534C64;
+  text-align: center;
   font-family: Work Sans;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-
-}
-
-
- .sectionone .ashfont{
-  color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: .8rem;
-
-
-
-align-items: center;
-
-}
-/*.....section2...*/
-.sectwo{
-  display: flex;
- 
-  justify-content: center;
+  font-size: .8rem;
   
-}
-figcaption{
-  color: #534C64;
-font-family: Work Sans;
-font-size: .8rem;
-font-style: normal;
-font-weight: 200;
-line-height: .875rem; 
-width: 12rem;
-text-align: center;
-padding-left: 1rem;
-
-margin-top: .2rem;
-}
-.sectwo img {
-  padding: 2rem;
-
-  width: 10.375rem;
-height: 14rem;
-border-radius: 1rem;
-
-
-text-align: center;
-
-
-
-}
-
-
-.card:hover{
-  cursor: pointer;
   
-
-}
-
-.secthree{
   
-  display: flex;
-  justify-content: center;
-  margin-top: 10rem;
   align-items: center;
   
-  
-
-}
-.sec3head{
-  padding-left: 3rem;
-  padding-right: 5rem;
-  padding-top: 3rem;
-  max-width: 50;
-
- 
-}
-.sec3font{
-  color: #534C64;
-text-align: center;
-font-family: Work Sans;
-font-size: .6rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1rem; 
-padding-top: 1rem;
-
-}
-.secthree .horseimg{
-  width: 20rem;
-  flex-shrink: 0;
-  
-  
-}
-#child{
-  width: 10rem;
-  margin-top:-7rem ;
-  border-radius: 0.5rem;
-border: 5px solid #FFF;
-background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
-}
-.allicon{
-  max-width: 100%;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-area: .5rem;
-  
-  padding: 5rem;
-  gap: 1rem .3rem;
-
-
-
-  
-
-}
-.allicon button {
-  display: flex;
-  width: 10.5rem;
-height: 3rem;
-flex-shrink: 0;
-border-radius: 3.125rem;
-background: #FFF;
-text-align: center;
-
-justify-self: center;
-
-justify-items: center ;
-padding: .3rem .5rem ;
-text-align: center;
-justify-content: center;
-border: 2px ;
+  }
+  /*.....section2...*/
+  .sectwo{
+    display: flex;
    
-   text-align: center;
-   align-items: center;
-   cursor: pointer;
-
-}
-.allicon>button:hover{
-  background-color: #e9d9e1;
-
+    justify-content: center;
+    
+  }
+  figcaption{
+    color: #534C64;
+  font-family: Work Sans;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: .875rem; 
+  width: 12rem;
+  text-align: center;
+  padding-left: 1rem;
   
-}
-.allicon img{
-
-width: 3rem;
-height: 1.75rem;
-flex-shrink: 0;
-}
-
-#pinkbor{
-   border: 2px solid rgb(221, 51, 153);
-   color:  rgb(247, 31, 186);
-   text-align: center;
-   align-items: center;
-
-
+  margin-top: .2rem;
+  }
+  .sectwo img {
+    padding: 2rem;
+  
+    width: 10.375rem;
+  height: 14rem;
+  border-radius: 1rem;
   
   
-
-}
-/*.....footer....*/
-footer{
-  background-color: #3C354F;
-  padding-bottom: 5rem;
-}
-#foothead{
-  padding-top: 2rem;
-}
-.linkmedia{
-  display: inline-flex;
-padding: 0.625rem;
-align-items: flex-start;
-gap: 3.75rem;
-margin-left: 5rem;
-
+  text-align: center;
   
-}
-.linkmedia>a{
-  color: #FFF;
-text-align: center;
-font-family: Work Sans;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-decoration: none;
-}
-.imgmedia{
-  display: inline-flex;
-padding: 0.625rem;
-align-items: flex-start;
-gap: 3.75rem;
-margin-left: 10rem;
-
-}
-.imgmedia>img{
-height: 2rem;
-}
-.litlefont{
-  color: rgba(255, 255, 255, 0.60);
-text-align: center;
-font-family: Work Sans;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-
-}
-#fonttt{
-  display: inline-flex;
+  
+  
+  }
+  
+  
+  .card:hover{
+    cursor: pointer;
+    
+  
+  }
+  
+  .secthree{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    align-items: center;
+    
+    
+  
+  }
+  .sec3head{
+    padding-left: 3rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    max-width: 50;
+  
+   
+  }
+  .sec3font{
+    color: #534C64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: .6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem; 
+  padding-top: 1rem;
+  
+  }
+  .secthree .horseimg{
+    width: 20rem;
+    flex-shrink: 0;
+    
+    
+  }
+  #child{
+    width: 10rem;
+    margin-top:-7rem ;
+    border-radius: 0.5rem;
+  border: 5px solid #FFF;
+  background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+  }
+  .allicon{
+    max-width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-area: .5rem;
+    
+    padding: 5rem;
+    gap: 1rem .3rem;
+  
+  
+  
+    
+  
+  }
+  .allicon button {
+    display: flex;
+    width: 10.5rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: #FFF;
+  text-align: center;
+  
+  justify-self: center;
+  
+  justify-items: center ;
+  padding: .3rem .5rem ;
+  text-align: center;
+  justify-content: center;
+  border: 2px ;
+     
+     text-align: center;
+     align-items: center;
+     cursor: pointer;
+  
+  }
+  .allicon>button:hover{
+    background-color: #e9d9e1;
+  
+    
+  }
+  .allicon img{
+  
+  width: 3rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  }
+  
+  #pinkbor{
+     border: 2px solid rgb(221, 51, 153);
+     color:  rgb(247, 31, 186);
+     text-align: center;
+     align-items: center;
+  
+  
+    
+    
+  
+  }
+  /*.....footer....*/
+  footer{
+    background-color: #3C354F;
+    padding-bottom: 5rem;
+  }
+  #foothead{
+    padding-top: 2rem;
+  }
+  .linkmedia{
+    display: inline-flex;
+  padding: 0.625rem;
+  align-items: flex-start;
+  gap: 3.75rem;
+  margin-left: 5rem;
+  
+    
+  }
+  .linkmedia>a{
+    color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  }
+  .imgmedia{
+    display: inline-flex;
   padding: 0.625rem;
   align-items: flex-start;
   gap: 3.75rem;
   margin-left: 10rem;
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 560px){
-  nav  {
-    flex-direction: column;
+  
+  }
+  .imgmedia>img{
+  height: 2rem;
+  }
+  .litlefont{
+    color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+  }
+  #fonttt{
+    display: inline-flex;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 3.75rem;
+    margin-left: 10rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 560px){
+    nav  {
+      flex-direction: column;
+      
+      
+  
+    }
+    .nabopt {
+      flex-direction: column;
+      
+     
+    }
+    ul{
+      flex-direction: column;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    ul>li{
+      margin: 1rem;
+    }
+    .psicon{
+      width: 3.37756rem;
+    height: 1.8rem;
+     }
+     .Gamel{
+      text-align: center;
     
+    font-size: 1.8125rem;
     
-
-  }
-  .nabopt {
-    flex-direction: column;
+    font-weight: 400;
     
-   
-  }
-  ul{
-    flex-direction: column;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-  ul>li{
-    margin: 1rem;
-  }
-  .psicon{
-    width: 3.37756rem;
-  height: 1.8rem;
-   }
-   .Gamel{
-    text-align: center;
+    }
+    
+    .nabopt  a{
+      font-size:1 .3rem;
+      flex-direction: column;
+    
   
-  font-size: 1.8125rem;
+    }
+    .nabopt button{
   
-  font-weight: 400;
-  
-  }
-  
-  .nabopt  a{
-    font-size:1 .3rem;
-    flex-direction: column;
-  
-
-  }
-  .nabopt button{
-
-    width: 16.375rem;
-  height: 4.5rem;
-  font-size: 1.3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: .5rem;
-  }
-  .nabopt button>img{
-    height: 1.3rem;
-    width: 1.8rem;
-  }
-  .header{
-    flex-direction: column;
-    flex-direction: column-reverse;
+      width: 16.375rem;
+    height: 4.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: .5rem;
+    }
+    .nabopt button>img{
+      height: 1.3rem;
+      width: 1.8rem;
+    }
+    .header{
+      flex-direction: column;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  .bannertitle{
+    justify-self: center;
+    width: 30rem;
+    height: auto;
+    padding-left: 6rem;
   }
-.bannertitle{
-  justify-self: center;
-  width: 30rem;
-  height: auto;
-  padding-left: 6rem;
-}
-.goat{
-width: 15rem; 
-}
-#headerimg{
-  width:20rem;
-}
-.btn{
-  display: flex;
-  gap: .3rem;
-  font-size: .2rem;
-
-}
-.buttonn-pink{
-  height: 2rem;
-  width: 5rem;
-  text-align: center;
-  font-size: .7rem;
-  padding: .5rem 1rem 0 1rem;
-}
-.buttonn-blue{
-  height: 2rem;
-  
-  width: 7rem;
-  text-align: center;
-  font-size: .7rem;
-  padding: .5rem 1rem 0 1rem;
-
-}
-.sectionone{
-  font-size: 10px;
-
-}
-.sectwo{
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  text-align: center;
-}
-.sectwo img {
-  width: 15rem;
-  height: auto;
-  
-}
-.seconetwo{
-
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-figcaption{
-  width: 20rem;
-}
-.secthree{
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-.secthree .horseimg{
-  width: 15rem;
-  flex-shrink: 0;
-  margin-top: 5rem;
-  
-
-
-
-}
-.childimg{
-  width: .2px;
-}
-#child{
-  width: 7rem;
-}
-.sec3head{
-  width: 12rem;
-  text-align:center ;
- 
-}
-.secthree p {
-  max-width: 12rem;
-  text-align: center;
-  margin-left: 3rem;
-}
-.allicon{
-  max-width: 100%;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  grid-area: .5rem;
-  border: 1px solid black;
-  padding: 3rem;
-  gap: 1rem .3rem;
-}
-.allicon button {
-  display: flex;
-  width: 6.5rem;
-height: 1.5rem;
-flex-shrink: 0;
-border-radius: 3.125rem;
-background: #FFF;
-text-align: center;
-
-justify-self: center;
-
-justify-items: center ;
-padding: .3rem .5rem ;
-text-align: center;
-justify-content: center;
-border: 2px ;
-   
-   text-align: center;
-   align-items: center;
-   font-size: .4rem;
-
-}
-.allicon img{
-
-width: 1.5rem;
-height: .75rem;
-flex-shrink: 0;
-}
-
-
-#pinkbor{
-   border: 2px solid rgb(221, 51, 153);
-   color:  rgb(247, 31, 186);
-   text-align: center;
-   align-items: center;
-
-
-  
-  
-
-}
-.linkmedia{
-  display: grid;
-  grid-template-columns: repeat( 3 , 3rem)
-  
-  
-}
-.linkmedia>a{
-  color: #FFF;
-text-align: center;
-font-family: Work Sans;
-font-size: .6rem;
-font-style: normal;
-
-margin-top: .3rem;
-}
-.imgmedia{
-  display: grid;
-  grid-template-columns: repeat( 3 , 5rem);
-  justify-content: center;
-  margin-left: 6rem;
-  padding-top: 8rem;
-}
-#fonttt{
-  display: grid;
-  grid-template-columns: repeat( 2 , 5rem);
-  padding-top: 5rem;
-  text-align: center;
-  padding-bottom: 2rem;
-  padding-right: 8rem;
-  justify-content: center;
-  
-
-}
-.litlefont{
-  font-size: .4rem;
-    padding-left: .2rem;
-}
-.imgmedia>img{
-  height: 1rem;
-
-
-
-}
-}
-
-
-
-/*....for tab..*/
-@media screen and (min-width:560px) and (max-width:912px){
-  nav  {
-    flex-direction: column;
-    
-    
-
+  .goat{
+  width: 15rem; 
   }
-  .nabopt {
-    flex-direction: column;
-    
-   
+  #headerimg{
+    width:20rem;
   }
-  ul{
-    
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+  .btn{
+    display: flex;
+    gap: .3rem;
+    font-size: .2rem;
+  
   }
-  ul>li{
-    margin: 1rem;
+  .buttonn-pink{
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    font-size: .7rem;
+    padding: .5rem 1rem 0 1rem;
+  }
+  .buttonn-blue{
+    height: 2rem;
+    
+    width: 7rem;
+    text-align: center;
+    font-size: .7rem;
+    padding: .5rem 1rem 0 1rem;
+  
+  }
+  .sectionone{
+    font-size: 10px;
+  
   }
   .sectwo{
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
   }
   .sectwo img {
-    max-width: 50rem;
-    height: 40rem;
+    width: 15rem;
     height: auto;
     
   }
+  .seconetwo{
+  
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
   figcaption{
-    width: 25rem
+    width: 20rem;
+  }
+  .secthree{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .secthree .horseimg{
+    width: 15rem;
+    flex-shrink: 0;
+    margin-top: 5rem;
+    
+  
+  
+  
+  }
+  .childimg{
+    width: .2px;
+  }
+  #child{
+    width: 7rem;
+  }
+  .sec3head{
+    width: 12rem;
+    text-align:center ;
+   
+  }
+  .secthree p {
+    max-width: 12rem;
+    text-align: center;
+    margin-left: 3rem;
+  }
+  .allicon{
+    max-width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-area: .5rem;
+    border: 1px solid black;
+    padding: 3rem;
+    gap: 1rem .3rem;
+  }
+  .allicon button {
+    display: flex;
+    width: 6.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: #FFF;
+  text-align: center;
+  
+  justify-self: center;
+  
+  justify-items: center ;
+  padding: .3rem .5rem ;
+  text-align: center;
+  justify-content: center;
+  border: 2px ;
+     
+     text-align: center;
+     align-items: center;
+     font-size: .4rem;
+  
+  }
+  .allicon img{
+  
+  width: 1.5rem;
+  height: .75rem;
+  flex-shrink: 0;
+  }
+  
+  
+  #pinkbor{
+     border: 2px solid rgb(221, 51, 153);
+     color:  rgb(247, 31, 186);
+     text-align: center;
+     align-items: center;
+  
+  
+    
+    
+  
+  }
+  .linkmedia{
+    display: grid;
+    grid-template-columns: repeat( 3 , 3rem)
+    
+    
+  }
+  .linkmedia>a{
+    color: #FFF;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: .6rem;
+  font-style: normal;
+  
+  margin-top: .3rem;
+  }
+  .imgmedia{
+    display: grid;
+    grid-template-columns: repeat( 3 , 5rem);
+    justify-content: center;
+    margin-left: 6rem;
+    padding-top: 8rem;
+  }
+  #fonttt{
+    display: grid;
+    grid-template-columns: repeat( 2 , 5rem);
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-right: 8rem;
+    justify-content: center;
+    
+  
+  }
+  .litlefont{
+    font-size: .4rem;
+      padding-left: .2rem;
+  }
+  .imgmedia>img{
+    height: 1rem;
+  
+  
+  
+  }
+  }
+  
+  
+  
+  /*....for tab..*/
+  @media screen and (min-width:560px) and (max-width:912px){
+    nav  {
+      flex-direction: column;
+      
+      
+  
+    }
+    .nabopt {
+      flex-direction: column;
+      
+     
+    }
+    ul{
+      
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+    }
+    ul>li{
+      margin: 1rem;
+    }
+    .sectwo{
+      flex-direction: row;
+    }
+    .sectwo img {
+      max-width: 50rem;
+      height: 40rem;
+      height: auto;
+      
+    }
+    figcaption{
+      width: 25rem
+   
+    
+  }  .allicon{
+    max-width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-area: .5rem;
+    
+    padding: 5rem;
+    gap: 1rem .3rem;
+  
+    
+  
+  }
+  .sectwo img {
+    padding: 2rem;
+  
+    width: 10.375rem;
+  height: 14rem;
+  border-radius: 1rem;
+  
+  
+  text-align: center;
+  
+  
+  
+  }
+  }*{
  
-  
-}  .allicon{
-  max-width: 100%;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
-  grid-area: .5rem;
-  
-  padding: 5rem;
-  gap: 1rem .3rem;
-
-  
-
-}
-.sectwo img {
-  padding: 2rem;
-
-  width: 10.375rem;
-height: 14rem;
-border-radius: 1rem;
-
-
-text-align: center;
-
-
-
-}
-}
+    font-family: 'Work Sans', sans-serif;
+    margin:0px;
+    
+    
+    
+    }
+    nav{
+      display: flex;
+    
+      justify-content: space-between;
+      background: #FFF;
+    
+    max-width: 100%;
+    padding: 2rem;
+    
+    
+    }
+    .psicon{
+      width: 5.37756rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    
+    }
+    .Gamel{
+      text-align: center;
+    
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    span{
+      color: hotpink;
+    }
+    .nabopt{
+      
+      text-align: center;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      
+      
+    }
+    ul{
+      display: flex;
+    }
+     .nabopt  a{
+      text-decoration: none;
+      color: #3C354F;
+    justify-self: center;
+      text-decoration: none;
+      color: #3C354F;
+    
+    font-size: 1rem;
+    list-style-type: none;
+    font-weight: 500;
+    margin-right:.7rem ;
+    margin-left: auto;
+    margin-top:1rem ;
+    padding-top: 5rem;
+    align-items: center;
+    }
+    ul>li{
+      list-style-type: none;
+      text-align: center;
+      
+    }
+    
+    
+    .nabopt button{
+    
+      width: 13.375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .2rem;
+    }
+    /*........section1a.......a*/
+    .header{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(250, 249, 249);
+      margin-bottom: 5rem;
+      
+    }
+    .bannertitle{
+      max-width: 50%;
+      margin-right: 5rem;
+      padding-top: 10rem;
+     
+     
+    
+    
+    
+    }
+    .headh{
+      color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    }
+    .goat{
+      text-align: center;
+    font-family: Work Sans;
+    font-size: 3.9375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    }
+    .buttonn-pink{
+      display: inline-flex;
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    border-radius: 3rem;
+    color: #FFF;
+    border: none;
+    margin-top: 2rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    }
+    .buttonn-blue{
+      display: inline-flex;
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    color: #FFF;
+    border: none;
+    margin-top: 2rem;
+    
+    
+    }
+    
+    
+    #headerimg{
+      
+      width: 25rem;
+      height: 18.875rem;
+      flex-shrink: 0;
+      margin-top: 10rem;
+      
+      
+    }
+    /*...new main ...*/
+    .sectionone{
+      text-align: center;
+      
+      align-items: center;
+    
+    }
+    #online
+    {
+      color: #0B0223;
+      text-align: right;
+      font-family: Work Sans;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+     
+    }
+    #funny{
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Work Sans;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    
+    }
+    
+    
+     .sectionone .ashfont{
+      color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .8rem;
+    
+    
+    
+    align-items: center;
+    
+    }
+    /*.....section2...*/
+    .sectwo{
+      display: flex;
+     
+      justify-content: center;
+      
+    }
+    figcaption{
+      color: #534C64;
+    font-family: Work Sans;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: .875rem; 
+    width: 12rem;
+    text-align: center;
+    padding-left: 1rem;
+    
+    margin-top: .2rem;
+    }
+    .sectwo img {
+      padding: 2rem;
+    
+      width: 10.375rem;
+    height: 14rem;
+    border-radius: 1rem;
+    
+    
+    text-align: center;
+    
+    
+    
+    }
+    
+    
+    .card:hover{
+      cursor: pointer;
+      
+    
+    }
+    
+    .secthree{
+      
+      display: flex;
+      justify-content: center;
+      margin-top: 10rem;
+      align-items: center;
+      
+      
+    
+    }
+    .sec3head{
+      padding-left: 3rem;
+      padding-right: 5rem;
+      padding-top: 3rem;
+      max-width: 50;
+    
+     
+    }
+    .sec3font{
+      color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem; 
+    padding-top: 1rem;
+    
+    }
+    .secthree .horseimg{
+      width: 20rem;
+      flex-shrink: 0;
+      
+      
+    }
+    #child{
+      width: 10rem;
+      margin-top:-7rem ;
+      border-radius: 0.5rem;
+    border: 5px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    }
+    .allicon{
+      max-width: 100%;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-area: .5rem;
+      
+      padding: 5rem;
+      gap: 1rem .3rem;
+    
+    
+    
+      
+    
+    }
+    .allicon button {
+      display: flex;
+      width: 10.5rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+    text-align: center;
+    
+    justify-self: center;
+    
+    justify-items: center ;
+    padding: .3rem .5rem ;
+    text-align: center;
+    justify-content: center;
+    border: 2px ;
+       
+       text-align: center;
+       align-items: center;
+       cursor: pointer;
+    
+    }
+    .allicon>button:hover{
+      background-color: #e9d9e1;
+    
+      
+    }
+    .allicon img{
+    
+    width: 3rem;
+    height: 1.75rem;
+    flex-shrink: 0;
+    }
+    
+    #pinkbor{
+       border: 2px solid rgb(221, 51, 153);
+       color:  rgb(247, 31, 186);
+       text-align: center;
+       align-items: center;
+    
+    
+      
+      
+    
+    }
+    /*.....footer....*/
+    footer{
+      background-color: #3C354F;
+      padding-bottom: 5rem;
+    }
+    #foothead{
+      padding-top: 2rem;
+    }
+    .linkmedia{
+      display: inline-flex;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 3.75rem;
+    margin-left: 5rem;
+    
+      
+    }
+    .linkmedia>a{
+      color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    }
+    .imgmedia{
+      display: inline-flex;
+    padding: 0.625rem;
+    align-items: flex-start;
+    gap: 3.75rem;
+    margin-left: 10rem;
+    
+    }
+    .imgmedia>img{
+    height: 2rem;
+    }
+    .litlefont{
+      color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    }
+    #fonttt{
+      display: inline-flex;
+      padding: 0.625rem;
+      align-items: flex-start;
+      gap: 3.75rem;
+      margin-left: 10rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 560px){
+      nav  {
+        flex-direction: column;
+        
+        
+    
+      }
+      .nabopt {
+        flex-direction: column;
+        
+       
+      }
+      ul{
+        flex-direction: column;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      ul>li{
+        margin: 1rem;
+      }
+      .psicon{
+        width: 3.37756rem;
+      height: 1.8rem;
+       }
+       .Gamel{
+        text-align: center;
+      
+      font-size: 1.8125rem;
+      
+      font-weight: 400;
+      
+      }
+      
+      .nabopt  a{
+        font-size:1 .3rem;
+        flex-direction: column;
+      
+    
+      }
+      .nabopt button{
+    
+        width: 16.375rem;
+      height: 4.5rem;
+      font-size: 1.3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: .5rem;
+      }
+      .nabopt button>img{
+        height: 1.3rem;
+        width: 1.8rem;
+      }
+      .header{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+      }
+    .bannertitle{
+      justify-self: center;
+      width: 30rem;
+      height: auto;
+      padding-left: 6rem;
+    }
+    .goat{
+    width: 15rem; 
+    }
+    #headerimg{
+      width:20rem;
+    }
+    .btn{
+      display: flex;
+      gap: .3rem;
+      font-size: .2rem;
+    
+    }
+    .buttonn-pink{
+      height: 2rem;
+      width: 5rem;
+      text-align: center;
+      font-size: .7rem;
+      padding: .5rem 1rem 0 1rem;
+    }
+    .buttonn-blue{
+      height: 2rem;
+      
+      width: 7rem;
+      text-align: center;
+      font-size: .7rem;
+      padding: .5rem 1rem 0 1rem;
+    
+    }
+    .sectionone{
+      font-size: 10px;
+    
+    }
+    .sectwo{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+    }
+    .sectwo img {
+      width: 15rem;
+      height: auto;
+      
+    }
+    .seconetwo{
+    
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    figcaption{
+      width: 20rem;
+    }
+    .secthree{
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    .secthree .horseimg{
+      width: 15rem;
+      flex-shrink: 0;
+      margin-top: 5rem;
+      
+    
+    
+    
+    }
+    .childimg{
+      width: .2px;
+    }
+    #child{
+      width: 7rem;
+    }
+    .sec3head{
+      width: 12rem;
+      text-align:center ;
+     
+    }
+    .secthree p {
+      max-width: 12rem;
+      text-align: center;
+      margin-left: 3rem;
+    }
+    .allicon{
+      max-width: 100%;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-area: .5rem;
+      border: 1px solid black;
+      padding: 3rem;
+      gap: 1rem .3rem;
+    }
+    .allicon button {
+      display: flex;
+      width: 6.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+    text-align: center;
+    
+    justify-self: center;
+    
+    justify-items: center ;
+    padding: .3rem .5rem ;
+    text-align: center;
+    justify-content: center;
+    border: 2px ;
+       
+       text-align: center;
+       align-items: center;
+       font-size: .4rem;
+    
+    }
+    .allicon img{
+    
+    width: 1.5rem;
+    height: .75rem;
+    flex-shrink: 0;
+    }
+    
+    
+    #pinkbor{
+       border: 2px solid rgb(221, 51, 153);
+       color:  rgb(247, 31, 186);
+       text-align: center;
+       align-items: center;
+    
+    
+      
+      
+    
+    }
+    .linkmedia{
+      display: grid;
+      grid-template-columns: repeat( 3 , 3rem)
+      
+      
+    }
+    .linkmedia>a{
+      color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: .6rem;
+    font-style: normal;
+    
+    margin-top: .3rem;
+    }
+    .imgmedia{
+      display: grid;
+      grid-template-columns: repeat( 3 , 5rem);
+      justify-content: center;
+      margin-left: 6rem;
+      padding-top: 8rem;
+    }
+    #fonttt{
+      display: grid;
+      grid-template-columns: repeat( 2 , 5rem);
+      padding-top: 5rem;
+      text-align: center;
+      padding-bottom: 2rem;
+      padding-right: 8rem;
+      justify-content: center;
+      
+    
+    }
+    .litlefont{
+      font-size: .4rem;
+        padding-left: .2rem;
+    }
+    .imgmedia>img{
+      height: 1rem;
+    
+    
+    
+    }
+    }
+    
+    
+    
+    /*....for tab..*/
+    @media screen and (min-width:560px) and (max-width:912px){
+      nav  {
+        flex-direction: column;
+        
+        
+    
+      }
+      .nabopt {
+        flex-direction: column;
+        
+       
+      }
+      ul{
+        
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      ul>li{
+        margin: 1rem;
+      }
+      .sectwo{
+        flex-direction: row;
+      }
+      .sectwo img {
+        max-width: 50rem;
+        height: 40rem;
+        height: auto;
+        
+      }
+      figcaption{
+        width: 25rem
+     
+      
+    }  .allicon{
+      max-width: 100%;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+      grid-area: .5rem;
+      
+      padding: 5rem;
+      gap: 1rem .3rem;
+    
+      
+    
+    }
+    .sectwo img {
+      padding: 2rem;
+    
+      width: 10.375rem;
+    height: 14rem;
+    border-radius: 1rem;
+    
+    
+    text-align: center;
+    
+    
+    
+    }
+    }
