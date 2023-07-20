@@ -730,8 +730,8 @@
       justify-content: space-between;
       background: #FFF;
     
-    max-width: 100%;
-    padding: 2rem;
+    
+    padding: 3rem;
     
     
     }
@@ -924,36 +924,11 @@
     /*.....section2...*/
     .sectwo{
       display: flex;
-     
+  
       justify-content: center;
       
     }
-    figcaption{
-      color: #534C64;
-    font-family: Work Sans;
-    font-size: .8rem;
-    font-style: normal;
-    font-weight: 200;
-    line-height: .875rem; 
-    width: 12rem;
-    text-align: center;
-    padding-left: 1rem;
     
-    margin-top: .2rem;
-    }
-    .sectwo img {
-      padding: 2rem;
-    
-      width: 10.375rem;
-    height: 14rem;
-    border-radius: 1rem;
-    
-    
-    text-align: center;
-    
-    
-    
-    }
     
     
     .card:hover{
@@ -1128,18 +1103,49 @@
     }
     .card{
       margin-top: 2rem;
+width:8rem ;
       background-color: #f0f0f0;
-  padding: 2px;
+  padding: 2rem;
   border-radius: 2px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease; }
-      .card:hover {
+  transition: transform 0.2s ease; }
+  figcaption{
+    color: #534C64;
+  font-family: Work Sans;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: .875rem; 
+  width: 5rem;
+  text-align: center;
+  padding-left: 1rem;
+  
+  margin-top: .2rem;
+  }
+  .sectwo img {
+    
+  padding-left: 0px;
+    width: 7rem;
+  height: 14rem;
+  border-radius: 1rem;
+  
+  
+  text-align: center;
+  
+  
+  
+  }
+      
+  
+  .card:hover {
         transform: scale(1.05); 
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     cursor: pointer;
+    justify-content: center;
+    text-align: center;
       }
-      .cover>img:hover{
-        opacity: 1;
+      .card>img:hover{
+        opacity: .3;
       }
   
 
@@ -1260,6 +1266,9 @@
       height: auto;
       
     }
+    .card{
+      width:18rem;
+    }
     .seconetwo{
     
       justify-content: center;
@@ -1268,7 +1277,7 @@
       flex-direction: column;
     }
     figcaption{
-      width: 20rem;
+      width: 14rem;
     }
     .secthree{
       flex-direction: column;
