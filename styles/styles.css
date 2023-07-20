@@ -1066,8 +1066,10 @@
     }
     /*.....footer....*/
     footer{
-      background-color: #3C354F;
-      padding-bottom: 5rem;
+      background-color:  #0B0223;
+      padding-bottom: 2rem;
+      padding: 2rem;
+      
     }
     #foothead{
       padding-top: 2rem;
@@ -1085,7 +1087,7 @@
       color: #FFF;
     text-align: center;
     font-family: Work Sans;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1118,7 +1120,29 @@
       align-items: flex-start;
       gap: 3.75rem;
       margin-left: 10rem;
+      margin-top: 1rem;
     }
+    #am{
+      color: white;
+      
+    }
+    .card{
+      margin-top: 2rem;
+      background-color: #f0f0f0;
+  padding: 2px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; }
+      .card:hover {
+        transform: scale(1.05); 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+      }
+      .cover>img:hover{
+        opacity: 1;
+      }
+  
+
     
     
     
@@ -1344,15 +1368,15 @@
     }
     .imgmedia{
       display: grid;
-      grid-template-columns: repeat( 3 , 5rem);
+      grid-template-columns: repeat( 3 , 3rem);
       justify-content: center;
       margin-left: 6rem;
-      padding-top: 8rem;
+      padding-top: 2rem;
     }
     #fonttt{
       display: grid;
-      grid-template-columns: repeat( 2 , 5rem);
-      padding-top: 5rem;
+      grid-template-columns: repeat( 2 , 8rem);
+      padding-top: 1rem;
       text-align: center;
       padding-bottom: 2rem;
       padding-right: 8rem;
@@ -1370,6 +1394,7 @@
     
     
     }
+    
     }
     
     
